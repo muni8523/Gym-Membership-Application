@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/929.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent repetition */
+  background-attachment: fixed; /* Fix the image in place */
+  background-position: center; /* Center the image */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  /* text-align: center; */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

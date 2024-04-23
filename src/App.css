@@ -1,0 +1,84 @@
+.App {
+  margin: 5%;
+  padding: 5% 40px;
+  font-size: large;
+
+}
+
+/* Container styling */
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2); /* Set transparency */
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  /* Transparent background with blur effect */
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  /* Center the button */
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Checkbox and Radio Button Styling */
+.checkboxes label,
+.radio-buttons label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Grid layout styling */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.grid-item:active {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #be4d394d;
+}
